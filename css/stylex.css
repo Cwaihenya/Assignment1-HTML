@@ -1,0 +1,238 @@
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  height: 100%;
+
+
+}
+/* Addendum */
+.container {
+  width: 980px;
+  margin: 0 auto;
+  /* Addendum */
+ min-height: 100%;
+ position: relative;
+
+}
+.header {
+  background-color: #F5B4B3;
+  height: 50px;
+  font-size: 1.5rem;
+}
+.logo_image {
+   width: 110px;
+   float: left;
+   margin: 0;
+}
+label.radio {
+  cursor: pointer;
+  text-indent: 10px;
+  overflow: visible;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 15px;
+}
+label{
+  text-indent: 15px;
+}
+/* Addendum */
+ul {
+  /* Remove margins */
+  margin: 0;
+  padding: 0;
+}
+li {
+  /* list先頭の黒丸を削除 */
+  list-style: none;
+}
+/* Addendum */
+.top_menu li {
+  float: left;
+  width: auto;
+}
+ul.top_menu {
+  float: right;
+}
+.top_menu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+.top_menu li a:hover {
+  text-decoration: underline;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* Addendum */
+.image_area{
+  width: 100%;
+}
+.wrapper{
+  margin-top: 10px;
+  /* Addendum */
+  padding-bottom: 100px;
+}
+.side_menu{
+  width: 300px;
+  float: left;
+}
+.side_menu li{
+  background-color: #F5B4B3;
+  height: 6rem;
+  margin-bottom: 10px;
+}
+.side_menu li a{
+  font-size:2rem;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 2rem;
+}
+/* Addendum */
+.side_menu li:hover{
+  opacity: 0.6;
+}
+.banner a:hover {
+  opacity: 0.6;
+}
+.banner img{
+  width: 100%;
+}
+.banner{
+  margin-top: 20px;
+}
+.contenta
+{
+  width: 600px;
+  float: right;
+
+  }
+.content
+{
+  float: left;
+  font-size: 2em;
+  display: inline-block;
+  float: right;
+  text-align: left;
+  background-color: #FCECEC;
+
+}
+
+input[type=text]
+{
+  width: 480px;
+  padding-bottom: 1em;
+  margin-bottom: 20px;
+}
+input[form=textbox]
+{
+  width: 480px;
+line-height: 3em;
+padding-bottom: 1em;
+  margin-bottom: 20px;
+}
+.Gender
+{
+  font-size: 2em;
+  display: inline-block;
+  float: left;
+  text-align: left;
+  background-color: #FCECEC;
+  margin-bottom: 10px;
+  margin-left: 45px;
+  margin-right: 20px;
+}
+.Inquiry
+{
+  float: left;
+  font-size: 2em;
+  display: inline-block;
+  float: right;
+  text-align: right;
+  background-color: #FCECEC;
+}
+
+.Send
+ {
+  background-color: #008B8B;
+  height: 40px;
+  position: relative;
+  display: inline-block;
+  padding: 30px 40px;
+  font-size: 2em;
+  text-align: center;
+  float: right;
+  vertical-align: middle;
+  display: table-cell;
+  margin-bottom: 20px;
+}
+
+input[type=submit] {
+  background-color: #008B8B;
+  font-size: 2.5rem;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding bottom: 10px;
+  padding-top: 10px;
+  /* Addendum */
+  margin-left: 240px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  margin-bottom: 120px;
+}
+
+p
+{
+  padding-right: 20px;
+}
+
+/* Addendum */
+
+.footer{
+  background-color: #4D4D4D;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: table;
+}
+.footer p {
+  font-size: 1rem;
+  color: #fff;
+  /* Addendum */
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+/* Addendum */
+.banner_content {
+  /* Set top margin */
+  margin-top: 10px;
+  /* <table>Behave like */
+  display: table;
+}
+.banner_content p {
+  /* <td>Behave like */
+  display: table-cell;
+}
+.banner_content p img {
+  /* Image size correction */
+  width: 100%;
+}
+.side_menu .point{
+  background-color: #FCECEC;
+}
+.side_menu .point a{
+  color: #4D4D4D;
+}
+li {
+  /* list先頭の黒丸を削除 */
+  list-style: none;
+}
