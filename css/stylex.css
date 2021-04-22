@@ -115,7 +115,6 @@ ul.top_menu {
   }
 .content
 {
-  float: left;
   font-size: 2em;
   display: inline-block;
   float: right;
@@ -127,37 +126,39 @@ ul.top_menu {
 input[type=text]
 {
   width: 480px;
-  padding-bottom: 1em;
-  margin-bottom: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 input[form=textbox]
 {
   width: 480px;
 line-height: 3em;
-padding-bottom: 1em;
+padding-bottom: 10px;
   margin-bottom: 20px;
 }
 .Gender
 {
-  font-size: 2em;
+  font-size: 3em;
   display: inline-block;
   float: left;
   text-align: left;
-  background-color: #FCECEC;
-  margin-bottom: 10px;
+
+  /*margin-bottom: 10px;
   margin-left: 45px;
-  margin-right: 20px;
+  margin-right: 20px;*/
 }
 .Inquiry
 {
-  float: left;
-  font-size: 2em;
+  font-size: 7em;
   display: inline-block;
   float: right;
   text-align: right;
   background-color: #FCECEC;
+  width: 480px;
 }
+th{
 
+}
 .Send
  {
   background-color: #008B8B;
@@ -171,13 +172,26 @@ padding-bottom: 1em;
   vertical-align: middle;
   display: table-cell;
   margin-bottom: 20px;
+  color: white;
 }
+table td{
+width: 480px;
+margin-right: 0;
+padding-left: 10px;
+margin-left:auto;
+font-size: 3em;
+}
+ table th{font-size: 3em;
+   padding-bottom: 20px;
+   width: 150px;
+
+ }
 
 input[type=submit] {
   background-color: #008B8B;
-  font-size: 2.5rem;
-  padding-left: 30px;
-  padding-right: 30px;
+  font-size: 3rem;
+  padding-left: 10px;
+  padding-right: 10px;
   padding bottom: 10px;
   padding-top: 10px;
   /* Addendum */
@@ -186,8 +200,14 @@ input[type=submit] {
   vertical-align: middle;
   display: table-cell;
   margin-bottom: 120px;
+  color: white;
 }
-
+input[type=submit]:hover{
+  background-color: transparent;
+}
+.th{
+  float: right;
+}
 p
 {
   padding-right: 20px;
